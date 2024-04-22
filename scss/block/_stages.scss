@@ -1,0 +1,129 @@
+.stages{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.stages__title{
+    margin-top: 64px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 125%;
+    color: #363738;
+}
+
+.stages__name{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    color: #363738;
+}
+
+.stages__text{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #6b6b6c;
+}
+
+.stages__item{
+    margin-top: 20px;
+    padding: 24px 24px 32px 47px;
+    fill: #fff;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+    width: 338px;
+    height: 206px;
+    border-radius:10px
+}
+
+.stages__tabletText{
+    display: none;
+}
+
+.stages__img{
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .stages__title{
+        font-size: 44px;
+    }
+
+    .stages__text{
+        margin-top: 48px;
+    }
+
+    .stages__names{
+        font-weight: 600;
+        width: 90px;
+        font-size: 20px;
+        line-height: 125%;
+        color: #363738;
+       
+        &::after{
+            content:" ";
+            display: inline-block;
+            width: 80px;
+            height: 2px;
+            background-repeat: no-repeat;
+            background-image: url('../img/header-line.svg');
+            background-position: bottom ;
+        }
+    }
+
+    .stages__name{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 125%;
+        color: #363738;
+        width: 255px;
+       
+        &::after{
+            content:" ";
+            display: inline-block;
+            width: 99px;
+            height: 2px;
+            background-repeat: no-repeat;
+            background-image: url('../img/header-line.svg');
+            background-position:bottom ;
+        }
+    }
+
+    .stages__tabletText{
+        display: inline-block;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6b6b6c;
+    }
+
+    .stages__text{
+        display: none;
+    }
+
+    .stages__item{
+        width: 705px;
+        height: 275px;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .stages__item{
+        width: 1205px;
+        height: 275px;
+    }
+
+    .stages__img{
+        display: inline-block;
+    }
+
+    .stages__item{
+        display: flex;
+        gap: 36px;
+    }
+    
+    .stages__link{
+        margin-top: 10px;
+    }
+}

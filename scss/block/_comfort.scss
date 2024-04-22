@@ -1,0 +1,71 @@
+.comfort__block{
+    margin-top: 57px;
+    margin-left: 20px;
+}
+
+.comfort__link{
+    margin-bottom: 38px;
+    display: flex;
+    gap: 16px;
+}
+
+.comfort__title{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 125%;
+    color: #363738;
+    margin-bottom: 48px;
+}
+
+.comfort__subtitle{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 135%;
+    color: #363738;
+}
+
+.comfort__text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #6b6b6c;
+}
+
+@media screen and (min-width:768px) {
+    .comfort__link{
+        margin-left: 134px;
+        margin-right: 96px;
+    }
+
+    .comfort__title{
+        padding: 112px 356px 106px 85px;
+        margin-left: 5px;
+        margin-right: 15px;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 135%;
+        color: #fff;
+        background-image: url('../img/comfort-bg.png');
+        width: 97%;
+        height: 383px;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .comfort__title{
+        padding: 178px 790px 166px 90px;
+        font-weight: 800;
+        margin-left: 10px;
+        font-size: 48px;
+        line-height: 135%;
+        color: #fff;
+        background-image: url('../img/laptop-bg.png');
+        width: 97%;
+        height: 453px;
+    }
+
+    .comfort__box{
+        display: flex;
+    }
+}

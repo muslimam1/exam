@@ -1,0 +1,40 @@
+.picture{
+    margin-top: 46px;
+    margin-left: 10px;
+}
+
+.picture__img2{
+    display: none;
+}
+
+.picture__img3{
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .picture__img1{
+        display: none;
+    }
+
+    .picture__img3{
+        display: none;
+    }
+
+    .picture__img2{
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .picture__img1{
+        display: none;
+    }
+
+    .picture__img2{
+        display: none;
+    }
+
+    .picture__img3{
+        display: inline-block;
+    }
+}
